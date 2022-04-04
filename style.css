@@ -1,0 +1,102 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Century Gothic';
+    background-color:#f3f3f3;
+}
+header nav{
+    box-shadow: 2px 3px 2px rgba(0,0,0,0.04);
+}
+header nav ul{
+    list-style: none;
+    text-align: right;
+    margin-right: 40px;
+}
+header nav ul li {
+    height: 20px;
+    border-radius: 20px;
+    line-height: 20px;
+    font-size: 0.7rem;
+    text-transform: uppercase; 
+    border: 2px  #e74c3c;
+    font-weight: bold;
+    color:rgb(68, 60, 60);
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    margin: 0 15px; 
+}
+header .navs ul li:hover a{
+    background-color: royalblue;
+    transition: .2s ease-out;
+    margin: 0 -15px;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: #f3f3f3;
+}
+a{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+ 
+}
+nav{
+    justify-content: space-around;
+    width:100%;
+    border:1px solid rgba(0,0,0,0.04);
+    background-color: rgb(218, 218, 218);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.navs img{
+    width: 90px;
+    position: absolute;
+    top: 3px;
+    left: 30px;    
+}
+.hero img{
+    width: 28%;
+    float: right;
+    margin: 90px 20px;
+}
+.hero h1{
+    float: left;
+    width: 50%;
+    margin-top: 200px;
+    margin-bottom: 0;
+    margin-left: 100px;
+}
+.hero p{
+    margin-left: 100px ;
+    text-align: justify;
+    width: 50% ;
+    float: left;
+}
+.hero span p a{
+    background-color: royalblue;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: #f3f3f3;
+}
+.hero span p a:hover{
+    color: #333;
+    transition: .3s ease-out;
+}
+.topf{
+    background-color: rgba(0,0,0,.9);
+    height: 50px;
+    margin-bottom: -16px;
+}
+.footer{
+    background-color: #333;
+    height: 90px;
+    margin: 0;
+    color: #ffffff;
+    padding: 20px 50px;
+    padding-top: 4px;
+}
+.footer p{
+    width: 50%;
+}
